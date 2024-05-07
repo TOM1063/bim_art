@@ -1,0 +1,30 @@
+.app {
+  position:fixed !important;
+  background-color: rgb(0, 0, 0);
+  width:100vw;
+  height:100vh;
+  position:absolute;
+  font-family: serif;
+
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  top:0;
+  z-index: -2;
+  color: white;
+}
+
+.title {
+  color: white;
+  letter-spacing: 1rem;
+  width:100%;
+  padding-left: 30px;
+
+}
+
+
+.my_canvas {
+  width:100vw !important;
+  height:100vh !important;
+  position:absolute;
+}
