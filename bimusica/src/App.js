@@ -1,5 +1,6 @@
 import classes from "./App.module.scss";
 import FileUploader from "./FileUploader";
+import Timeline from "./Timeline";
 import { Bimusica } from "./ifc_app.js";
 import { useEffect, useState } from "react";
 
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className={classes.app}>
       <h1 className={classes.title}>bimusica</h1>
+      {/* <Timeline></Timeline> */}
       <canvas id="my-canvas" className="classes.my_canvas"></canvas>
       <link rel="stylesheet" href="https://use.typekit.net/xxn4fmg.css"></link>
       {!file ? <FileUploader start={start}></FileUploader> : ""}
